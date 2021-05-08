@@ -194,12 +194,12 @@ var formatter = new Intl.NumberFormat('en-GB', {
     calculate(term);
 
     $('.houseValue').on('keyup',function(){
-      var term = $('.years').val();
+      var term = $('.years').html();
       calculate(term);
     });
 
     $('.remainingMortgage').on('keyup',function(){
-      var term = $('.years').val();
+      var term = $('.years').html();
       calculate(term);
     });
 
