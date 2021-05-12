@@ -40,7 +40,7 @@ var formatter = new Intl.NumberFormat('en-GB', {
 
             if(b.Value_Type == 'Interestdelta'){
                if(b.Loan_Term == termInMonths){
-                  var valueEight = b.Gross_Value;
+                  var valueEight = b.Gross_Value*maxLineOfCredit/100000;
                   $('.numberEight').html(formatter.format(parseInt(valueEight)));
                }  
             }
