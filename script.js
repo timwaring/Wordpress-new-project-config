@@ -58,9 +58,9 @@ var formatter = new Intl.NumberFormat('en-GB', {
 						$('.numberThree').html(formatter.format(parseInt(Math.abs(valueThree))));
 
                    if($('.numberThree').html().length >= 6){
-                     $('.numberThree').not('.dontResize').css({'font-size':'9px'}); 
+                     $('.numberThree').not('.dontResize').css({'font-size':'10px'}); 
                    }else{
-                     $('.numberThree').not('.dontResize').css({'font-size':'14px'}); 
+                     $('.numberThree').not('.dontResize').css({'font-size':'10px'}); 
                    }
 					}
 				}
@@ -74,9 +74,9 @@ var formatter = new Intl.NumberFormat('en-GB', {
                   $('.sixA').html(formatter.format(parseInt(Math.abs(valueSixA))));
 
                   if($('.sixA').html().length >= 6){
-                     $('.sixA').css({'font-size':'9px'}); 
+                     $('.sixA').css({'font-size':'10px'}); 
                    }else{
-                     $('.sixA').css({'font-size':'14px'}); 
+                     $('.sixA').css({'font-size':'10px'}); 
                    }
 
                }
@@ -90,9 +90,9 @@ var formatter = new Intl.NumberFormat('en-GB', {
                   $('.sixB').html(formatter.format(parseInt(Math.abs(valueSixB))));
 
                   if($('.sixB').html().length >= 6){
-                     $('.sixB').css({'font-size':'9px'}); 
+                     $('.sixB').css({'font-size':'10px'}); 
                    }else{
-                     $('.sixB').css({'font-size':'14px'}); 
+                     $('.sixB').css({'font-size':'10px'}); 
                    }
                }
             }
@@ -105,9 +105,9 @@ var formatter = new Intl.NumberFormat('en-GB', {
                   $('.sixC').html(formatter.format(parseInt(Math.abs(valueSixC))));
 
                   if($('.sixC').html().length >= 6){
-                     $('.sixC').css({'font-size':'9px'}); 
+                     $('.sixC').css({'font-size':'10px'}); 
                    }else{
-                     $('.sixC').css({'font-size':'14px'}); 
+                     $('.sixC').css({'font-size':'10px'}); 
                    }
                }
             }
@@ -120,9 +120,9 @@ var formatter = new Intl.NumberFormat('en-GB', {
                   $('.sixD').html(formatter.format(parseInt(Math.abs(valueSixD))));
 
                   if($('.sixD').html().length >= 6){
-                     $('.sixD').css({'font-size':'9px'}); 
+                     $('.sixD').css({'font-size':'10px'}); 
                    }else{
-                     $('.sixD').css({'font-size':'14px'}); 
+                     $('.sixD').css({'font-size':'10px'}); 
                    }
                }
             }
@@ -135,9 +135,9 @@ var formatter = new Intl.NumberFormat('en-GB', {
                   $('.sixE').html(formatter.format(parseInt(Math.abs(valueSixE))));
 
                   if($('.sixE').html().length >= 6){
-                     $('.sixE').css({'font-size':'9px'}); 
+                     $('.sixE').css({'font-size':'10px'}); 
                    }else{
-                     $('.sixE').css({'font-size':'14px'}); 
+                     $('.sixE').css({'font-size':'10px'}); 
                    }
                }
             }
